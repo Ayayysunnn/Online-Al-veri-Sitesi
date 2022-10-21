@@ -1,0 +1,21 @@
+p{
+    color: blueviolet;
+}
+
+div p {
+    color: blue;
+}
+
+.container {
+    color: chartreuse,;
+    font-size: 25px;
+}
+
+div,p{
+    color: crimson;
+}
+
+.container div p {
+    color: darkgreen;
+}
+
