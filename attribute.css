@@ -1,0 +1,14 @@
+h2[title="Baslik1"] {
+    color: red;
+}
+
+p[title="Paragraf1"]{
+    color: darkblue;
+    text-align: justify;
+}
+a[target="_blank"]{
+    color: darkgreen;
+}
+input[type="text"]{
+    background-color: coral;
+}
