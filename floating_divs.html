@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Divs</title>
+
+    <style>
+        #container {
+            background: coral;
+            width: 100%;
+        }
+
+        div {
+            width:300px;
+            height: 300px;
+            margin: 5px;
+            overflow: auto;
+
+        }
+
+        #birinci {
+            background: blue;
+            float: left;
+        }
+
+        #ikinci {
+            background: palevioletred;
+            float: left;
+        }
+
+        #ucuncu {
+            background: chartreuse;
+            float: left;
+        }
+
+        #dorduncu {
+            background: blueviolet;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="birinci">birinci</div>
+        <div id="ikinci">ikinci</div>
+        <div id="ucuncu">üçüncü</div>
+        <div id="dorduncu">dördüncü</div>
+    </div>
+</body>
+
+</html>
